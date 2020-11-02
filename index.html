@@ -13,13 +13,25 @@
 // console.log(cars);
 
 //Задание №2-1 Методы
-let arr = ['Методы'];
-let addToarray = (arg) => {
-  arr.push(arg);
-  return arr.length;
-};
-console.log (addToarray('обработки массива'));
+// let arr = ['Методы'];
+// let addToarray = (arg) => {
+//   arr.push(arg);
+//   return arr.length;
+// };
+// console.log (addToarray('обработки массива'));
 
+//Задание №2-2 Методы
+let styles = ['Джаз','Блюз']; //п1
+styles.push('Рок-н-ролл');    //п2
+//console.log(styles);
+let i=Math.floor(styles.length/2);
+styles[i] = 'Классика';
+//console.log(i);
+//console.log(styles);
+console.log(styles.shift());  //п4
+//console.log(styles);
+styles.unshift('Рэп','Рэгги');//п5
+//console.log(styles);
 
 
 
